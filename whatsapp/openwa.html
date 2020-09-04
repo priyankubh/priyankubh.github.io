@@ -4,14 +4,14 @@
 <script>
 function openWin() {
   let wanumber = new URLSearchParams(window.location.search).get('wanumber')
-  window.open("https://wa.me/"+wanumber+"?text=Hi");
+  window.open("https://wa.me/"+wanumber+"?text=I+agree+to+the+terms+and+conditions");
 }
 </script>
 </head>
 <body>
 
 <form>
-  <input type="button" value="Open WhatsApp" onclick="openWin()">
+  <input type="button" value="Agree to T&C" onclick="openWin()">
 </form>
 
 </body>
